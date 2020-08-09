@@ -85,7 +85,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,.texte ul,.page-temp
 
 }
 
-#expedition figure:after,.module2:after{content:'';display:block;position:absolute;left:0;right:0;top:-40px;bottom:-40px;background:#fff;z-index:-1}
+#expedition figure:after,.module2:after{content:'';display:block;position:absolute;left:0;right:0;top:-40px;bottom:-40px;background: #d23d3d;;z-index:-1}
 
 	.wrap{ float: left; max-width:1200px;padding:0 30px;overflow:hidden}
 
@@ -289,7 +289,7 @@ header .social a{display:inline-block;position:relative;vertical-align:middle;pa
 
 .burger span,.burger:before,.burger:after,.burger div:before,.burger div:after{content:'';display:block;position:absolute;height:2px;right:0;background:#394358;-moz-transform-origin:100% 0;-ms-transform-origin:100% 0;-webkit-transform-origin:100% 0;transform-origin:100% 0;-moz-transition:cubic-bezier(0.7, 0, 0.3, 1) 0.15s;-o-transition:cubic-bezier(0.7, 0, 0.3, 1) 0.15s;-webkit-transition:cubic-bezier(0.7, 0, 0.3, 1) 0.15s;transition:cubic-bezier(0.7, 0, 0.3, 1) 0.15s}
 
-	.home .burger span,.home .burger:before,.home .burger:after,.home .burger div:before,.home .burger div:after{background:#fff}
+	.home .burger span,.home .burger:before,.home .burger:after,.home .burger div:before,.home .burger div:after{background:#d23d3d}
 
 	.burger span{top:0;left:0;-moz-transition-delay:0.3s;-o-transition-delay:0.3s;-webkit-transition-delay:0.3s;transition-delay:0.3s}
 
@@ -381,7 +381,7 @@ header .social a{display:inline-block;position:relative;vertical-align:middle;pa
 
 #montagne{display:block;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}
 
-.bgMod1{position:relative;height:100vh;background:url("bg.jpg") center no-repeat;background-size:cover}
+.bgMod1{position:relative;height:100vh;background:url("bg1.jpg") center no-repeat;background-size:cover}
 
 	@media (max-width: 768px){.bgMod1{background-image:url("../ak8.picdn.net/shutterstock/videos/8097451/thumb/1f323.jpg?i10c=img.resize(height:160)")}
 
@@ -456,11 +456,11 @@ sup {
   	margin-left: auto;
   	margin-right: auto;
 }
-@media (max-width: 1366px) and (orientation: landscape){.bgMod1{background-image:url("bg.jpg")}
+@media (max-width: 1366px) and (orientation: landscape){.bgMod1{background-image:url("bg1.jpg")}
 
 }
 
-@media (max-width: 425px){.bgMod1{background-image:url("bg.jpg")}
+@media (max-width: 425px){.bgMod1{background-image:url("bg1.jpg")}
 
 }
 
